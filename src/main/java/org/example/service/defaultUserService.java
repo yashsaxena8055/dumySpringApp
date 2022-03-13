@@ -29,5 +29,10 @@ public class defaultUserService implements UserService {
     }
 
 
+    @Override
+    public void addUsers(User user) {
+        repository.save(user);
+    }
+
 
 }

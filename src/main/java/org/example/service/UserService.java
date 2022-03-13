@@ -9,4 +9,6 @@ public interface UserService  {
 
     public List<User> getAllUsers();
 
+
+    void addUsers(User user);
 }
